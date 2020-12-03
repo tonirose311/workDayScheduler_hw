@@ -34,10 +34,6 @@ $( document ).ready(function() {
     }
 formatAMPM();
 
-setInterval(function() {
-    updateColors();
-}, 1000);
-
 var saveBtn = $('.saveBtn');
 saveBtn.on('click', function(){
     let eventId = $(this).attr('id');
